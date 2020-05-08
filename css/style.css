@@ -71,4 +71,31 @@
  transform: translateX(-100%); 
  }
 }
+
+@media screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+          display: block;
+      }
+      .dropdown-menu{
+          margin-top: 0;
+      }
+      .dropdown-toggle{
+          margin-bottom: 2px;
+      }
+      .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+          margin-bottom: 0;
+      }
+  }
+
+  
+  .a:hover {
+    background-color:rgb(49, 109, 195);
+    border-radius: 35px;
+    border: 1px solid rgb(49, 109, 195);
+  }
+  .flex-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
  
